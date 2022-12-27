@@ -6,9 +6,10 @@ There are 2 challenges to the data used missing labels and noisy labels.
 ## Setup conda environment
 
     conda create -n my_env_name python=3.8 # do only the first time
-    conda activate my_env_name # every time you 
-    pipreqs . --force # to update the requirements
-
+    conda activate my_env_name # every time you run the notebook
+    pip install ipykernel --user # to install notebook requirements
+    python -m ipykernel install --user --name=myenv  # to add to notebook environments
+    pipreqs . --force # to update the requirements 
 
 ## Data setup
 
