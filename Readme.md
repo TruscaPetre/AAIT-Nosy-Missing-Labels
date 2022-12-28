@@ -14,3 +14,9 @@ There are 2 challenges to the data used missing labels and noisy labels.
 ## Data setup
 
 You should move the 2 archives: `task1.tar.gz` and `task2.tar.gz` in the data directory.
+
+## Notes for the report
+
+In literature, when you have missing labels, the task is called semi-supervised learning. 
+An effective semi-supervised learning algorithm can achieve better performance than a supervised learning algorithm fir only on the labeled training examples.
+Page 4, Semi-Supervised Learning, 2006. [link](https://books.google.ro/books?id=A3ISEAAAQBAJ&dq=Semi-Supervised+Learning+(Adaptive+Computation+and+Machine+Learning+series)+1st+Edition+by+Olivier+Chapelle+(Editor),+Bernhard+Scholkopf+(Editor),+Alexander+Zien+(Editor)+google+books&source=gbs_navlinks_s) TODO: add proper bibtex citation.
